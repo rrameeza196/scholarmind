@@ -1,0 +1,6 @@
+{
+  "name": "ScholarMind",
+  "description": "ScholarMind is a RAG-powered research paper assistant for Final Year Project (FYP) students. Upload PDFs, ask questions, and get cited answers directly from your own research material.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
