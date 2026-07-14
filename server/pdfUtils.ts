@@ -1,6 +1,5 @@
 import { createRequire } from 'module';
-
-const require = createRequire(import.meta.url);
+const require = createRequire(import.meta.url || process.argv[1]);
 
 export interface PdfPage {
   /** 1-indexed page number. */
