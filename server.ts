@@ -12,7 +12,6 @@ setGlobalDispatcher(new Agent({ allowH2: false }));
 import express from 'express';
 import multer from 'multer';
 import cookieParser from 'cookie-parser';
-import { fileURLToPath } from 'url';
 import { createServer as createViteServer } from 'vite';
 
 import {
@@ -50,10 +49,6 @@ import {
 } from './server/auth.js';
 
 import { Paper, Chunk, ChatMessage } from './src/types.js';
-
-// Derive __dirname for ES Modules
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 
 const upload = multer({
   storage: multer.memoryStorage(),
