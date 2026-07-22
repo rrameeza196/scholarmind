@@ -2,7 +2,31 @@
 
 **A RAG-powered research assistant built on the Gemini API — read, question, summarize, and compare academic papers in one workspace.**
 
+🏆 **Winner — Best Use of Gemini API**, [Code with Gemini API](https://code-api.devpost.com/) hackathon on Devpost.
+[View the Devpost submission →](https://devpost.com/software/scholarmind-rag-assistant-for-research-papers)
+
+📺 [Watch the demo video](https://www.youtube.com/watch?v=YKc3ffXCFiI)
+
 ScholarMind helps students and researchers work through dense academic PDFs faster. Upload papers, ask grounded questions with page-level citations, generate structured full-paper summaries, or compare multiple papers side-by-side — all backed by Google's Gemini API.
+
+---
+
+## 📸 Screenshots
+
+**Dashboard**
+![Dashboard](screenshots/dashboard.png)
+
+**Paper Library**
+![Library](screenshots/library.png)
+
+**Ask Your Papers (Grounded Q&A)**
+![Ask your papers](screenshots/ask-papers.png)
+
+**Full-Paper Summarization**
+![Summarize paper](screenshots/summarize.png)
+
+**Multi-Paper Comparison**
+![Compare papers](screenshots/compare.png)
 
 ---
 
@@ -118,6 +142,7 @@ scholarmind/
 │   ├── App.tsx             # Main app shell & tab routing
 │   ├── components/         # Ask, Library, Dashboard, Summarize, Compare tabs
 │   └── types.ts            # Shared TypeScript types
+├── screenshots/            # README screenshots
 └── db.json                 # Generated at runtime — papers, chunks, embeddings, chats
 ```
 
