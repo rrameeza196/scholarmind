@@ -14,7 +14,7 @@ ScholarMind helps students and researchers work through dense academic PDFs fast
 ## 📸 Screenshots
 
 **Dashboard**
-![Dashboard](screenshots/dashboard.png)
+(screenshots/dashboard.png)
 
 **Paper Library**
 ![Library](screenshots/library.png)
